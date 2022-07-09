@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.f-one{
+	display:flex;
+	justify-content: flex-end;
+}
+
+.f-one ul li{
+	display: inline-flex;
+	padding-right: 30px;
+	padding-top: 10px;
+	color: white;
+}
+.f-one ul a{
+	text-decoration: none;
+	color: white;
+}
+.logo{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+.logo ul li{
+	display: inline-flex;
+	padding-right: 30px;
+	color: white;
+}
+.logo ul a{
+	text-decoration: none;
+	color: white;
+}
+.logo img{
+	padding-left: 20px;
+	height: 8vh;
+}
+.logo-color{
+	background-color: #1a1a1a;
+
+}
+.buss{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	background-color: #FF5B00;
+	color: white;
+	padding-bottom: 30px;
+	font-family: sans-serif;
+
+}
+.buss ul li{
+	display: inline-flex;
+	list-style: none;
+	padding-left: 80px;
+	font-size: 20px;
+	padding-top: 20px;
+	font-weight: bold;
+	margin-right: 20px;
+
+}
+.buss ul a{
+	text-decoration: none;
+	color: white;
+}
+.buss h2{
+	padding-left: 40px;
+	font-size: 45px;
+}
+.center{
+	text-align: center;
+	font-family: Cambria, Georgia, serif;
+	padding-top: 30px;
+}
+.center h1{
+	font-size: 40px;
+}
+.center p{
+	padding-top: 20px;
+	font-size: 22px;
+}
+.image img{
+	height:100vh;
+	padding-left: 200px;
+	padding-top: 30px;
+
+}
+svg{
+	height: 3vh;
+	color: red;
+}
+
+.all-check{
+	display: flex;
+	justify-content: space-between;
+
+}
+.check1 ul li{
+	list-style: none;
+	padding-left: 60px;
+	padding-top: 10px;
+	font-size: 25px;
+}
+.check1 ul{
+	padding-top: 30px;
+}
+
+.check2 ul li{
+	list-style: none;
+	padding-right:90px;
+	padding-top: 10px;
+	font-size: 25px;
+
+}
+.check2 ul{
+ 	padding-top: 30px;	
+}
+.line ul{
+	display: inline-flex;
+	list-style: none;
+	padding-left: 0px;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding-top: 150px;
+	flex-wrap: wrap;
+}
+.line ul li{
+	padding-left: 150px;
+}
+.line ul a{
+	text-decoration: none;
+	color: black;
+}
+.foot{
+	display: inline-flex;
+	padding-top: 100px;
+	background-color: #1a1a1a;
+	color: white;
+	margin-top: 80px;
+	padding-right: 55rem;
+}
+.foot p{
+	font-size: 20px;
+	padding-left: 55px;
+	padding-bottom: 20px;
+	
+}
+.foot ul{
+	padding-left: 50px;
+	list-style: none;
+	line-height: 30px;	
+	cursor: pointer;
+}
+
+.footer{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background-color: #1a1a1a ;
+	color: white;
+}
+.fa-check{
+	color: orange;
+}
+.last{
+	border-right: 1px solid white;
+}
+
